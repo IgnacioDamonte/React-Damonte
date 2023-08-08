@@ -11,10 +11,6 @@ const CartWidget = () => {
     )
 }
 
-const misvgcolor = document.getElementById('mi-svgcolor');
-    const paths = misvgcolor.querySelectorAll('path');
 
-    paths.forEach(path => {
-      path.setAttribute('fill', 'red');
-    });
+   
 export default CartWidget
