@@ -27,8 +27,8 @@ function App() {
                         <Route path="*" element={<h1>404 NOT FOUND</h1>} />
                     </Routes>
                 </BrowserRouter>
-                <footer className="has-background-black footer">
-                    <p className="texto">Copyright Compu SV   ●   Todos los derechos reservados   ●   Creado por Perez Jonatan. </p>
+                <footer className="footer">
+                    <p className="texto">Copyright Barsovia   ●   Todos los derechos reservados   ●   Creado por Ignacio Damonte. </p>
                 </footer>
             </CartProvider>
         </div>

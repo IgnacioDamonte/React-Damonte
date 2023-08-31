@@ -20,7 +20,7 @@ const Item = ({ id, img, name, price, description }) => {
                     <p className="m-2">DESCRIPCION : {description}</p>
                 </section>
                 <footer>
-                    <Link to={`/item/${id}`} className="button has-text-black is-rounded is-danger is-outlined" id="detalles">VER DETALLES</Link>
+                    <Link to={`/item/${id}`} className="button has-text-black is-rounded is-danger" id="detalles">VER DETALLES</Link>
                 </footer>
         </article>
 

@@ -1,5 +1,5 @@
 #navbar {
-
+    background-color: #7c0000;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,7 +8,7 @@
 
 a {
 
-    color: 	#fc0000 !important;
+    color: 	#a8a8a8 !important;
     text-decoration: none;
     padding: 10px;
     }

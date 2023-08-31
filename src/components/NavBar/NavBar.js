@@ -7,20 +7,19 @@ const NavBar = () => {
 
     return (
 
-        <nav className="has-background-black" id="navbar" >
-            <Link to="/">
-                Home
+        <nav  id="navbar" >
+           
+           <Link className="home" to="/">
+                 <b>Home</b>
             </Link>
-
-            <NavLink to={`/category/graficas`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}><h4>GRAFICAS</h4></NavLink>
-            <NavLink to={`/category/hardware`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}> <h4>HARDWARE</h4></NavLink>
-            <NavLink to={`/category/procesadores`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}><h4>PROCESADORES</h4></NavLink>
-            <NavLink to={`/category/pcarmadas`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}><h4> PC ARMADAS</h4></NavLink>
+            <NavLink to={`/category/hamburguesas`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}><h4>Hamburguesas</h4></NavLink>
+            <NavLink to={`/category/bebidas`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}> <h4>Bebidas</h4></NavLink>
+            <NavLink to={`/category/guarnicion`} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}><h4> Guarnicion</h4></NavLink>
+            
 
             <CartWidget/>
 
         </nav >
-
     )
 
 }

@@ -1,52 +1,55 @@
-import graficas from "./img/3060tiPalit.jpg";
-import hardware from "./img/PMB560.jpg";
-import procesador from "./img/i7procesador.jpg";
-import pcarmadas from "./img/PcGamaMedia.jpg";
-
-
-
-const products = [
-
+import burguer1 from "../../img/burger2.png"
+import burguer2 from "../../img/burgguer8.png"
+import bebida1 from "../../img/coctel1.png"
+import bebida2 from "../../img/coctel2.png"
+import guarnicion1 from "../../img/62fc0c5b0db6d.png"
+const products =[
     {
         id: "1",
-        name: "RTX 3060 TI",
-        price: "261.000",
-        category: "graficas",
-        img:  graficas ,
-        stock: 5,
-        color: "Gris",
-        description: "GEN 3000"
-    },
-    
-    {
-        id:"2",
-        name: "ASUS | Placa madre B560",
-        price: "64.000",
-        category:"hardware",
-        img: hardware,
-        stock:5,
-        description:"S1200"
+        name: "Hamburguesa",
+        price: "2500",
+        category: "hamburguesas",
+        img:  burguer1 ,
+        stock: 10,
+        description: "Wuper Jr"
     },
     {
-        id:"3",
-        name: "Procesador I7 12700f",
-        price: "250.000",
-        category:"procesadores",
-        img: procesador,
-        color:"GRIS",
-        stock:8,
-        description:"LGA1200"
+        id: "2",
+        name: "Hamburguesa2",
+        price: "2750",
+        category: "hamburguesas",
+        img:  burguer2 ,
+        stock: 10,
+        description: "Bk Simple"
+    },
+    {
+        id: "3",
+        name: "bebida1",
+        price: "1400",
+        category: "bebidas",
+        img: bebida1 ,
+        stock: 10,
+        description: "Martini"
     },
     {
         id:"4",
-        name: "PC Gamer",
-        price: "490.000",
-        category:"pcarmadas",
-        img: pcarmadas,
-        color: "Dependiente a stock",
-        stock:3,
-        description:"i5 12400f + RX 6600"
+        name: "bedida2",
+        price: "1650",
+        category:"bebidas",
+        img: bebida2,
+        stock:10,
+        description:"Mojito"
     },
+    {
+        id:"5",
+        name: "guarnicion1 ",
+        price: "950",
+        category:"guarnicion",
+        img: guarnicion1,
+        stock:10,
+        description:"Papas fritas"
+    },
+   
 ]
 
 export const getProducts = () => {

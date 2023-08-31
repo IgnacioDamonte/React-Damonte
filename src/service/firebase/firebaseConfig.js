@@ -3,14 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAHoorbI-EHTzxjaDR1vFBAvOHPd8k7WAw",
-    authDomain: "compu-sv.firebaseapp.com",
-    projectId: "compu-sv",
-    storageBucket: "compu-sv.appspot.com",
-    messagingSenderId: "459464797161",
-appId: "1:459464797161:web:7b15121798c9462223b978"
-};
-
+    apiKey: "AIzaSyD3C_1TNcMEhkJD7ho_52H1eHVxO23h8Pc",
+    authDomain: "barsovia-web.firebaseapp.com",
+    projectId: "barsovia-web",
+    storageBucket: "barsovia-web.appspot.com",
+    messagingSenderId: "386428056039",
+    appId: "1:386428056039:web:81c2f3e2fbcc1438324d42"
+  };
+  
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app)

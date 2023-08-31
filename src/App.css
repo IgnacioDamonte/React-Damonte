@@ -6,15 +6,15 @@ justify-content: center;
 .footer {
   position: absolute;
   width: 100%;
-  bottom: 0%;
   height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #7c0000;
 
 }
 .texto{
   display: flex;
-  color: red;
+  color: rgb(155, 155, 155);
   margin-top: 2%;
 }
