@@ -1,16 +1,20 @@
-#texto {
+.texto {
+display: flex;
+justify-content: center;
+}
 
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  height: 10%;
   display: flex;
   justify-content: center;
-  color: brown;
- 
+  align-items: center;
 
-  }
-
-  .futer {
-    background-color: grey;
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-  }
-  
+}
+.texto{
+  display: flex;
+  color: red;
+  margin-top: 2%;
+}
